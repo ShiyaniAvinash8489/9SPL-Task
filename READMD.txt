@@ -1,0 +1,20 @@
+9SPL
+
+
+
+Base URL: http://127.0.0.1:8000/user/
+Swagger URL: http://127.0.0.1:8000/swagger/
+Swagger redoc: http://127.0.0.1:8000/redoc/
+
+
+***********************************************
+Install Requirement
+To install all packages from requirement
+***********************************************
+  pip install -r requirement.txt
+  
+  
+***********************************************
+				Start server
+***********************************************
+  python manage.py runserver

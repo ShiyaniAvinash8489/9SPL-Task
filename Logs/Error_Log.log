@@ -1,0 +1,653 @@
+2022-12-03 19:22:48,245 ERROR expected string or bytes-like object
+2022-12-03 19:22:48,324 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:23:37,522 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\views.py changed, reloading.
+2022-12-03 19:25:54,848 ERROR expected string or bytes-like object
+2022-12-03 19:25:54,874 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:26:11,168 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:26:16,599 ERROR expected string or bytes-like object
+2022-12-03 19:26:16,615 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:27:13,285 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:27:15,526 ERROR expected string or bytes-like object
+2022-12-03 19:27:15,551 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:28:10,901 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:28:14,849 ERROR expected string or bytes-like object
+2022-12-03 19:28:14,866 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:28:38,969 ERROR expected string or bytes-like object
+2022-12-03 19:28:39,001 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:28:47,770 WARNING view's update_user_profile_view raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\drf_yasg\inspectors\base.py", line 42, in call_view_method
+    return view_method()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\generics.py", line 63, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'update_user_profile_view' should either include a `queryset` attribute, or override the `get_queryset()` method.
+2022-12-03 19:29:16,041 ERROR expected string or bytes-like object
+2022-12-03 19:29:16,073 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:30:47,933 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:31:00,443 ERROR expected string or bytes-like object
+2022-12-03 19:31:00,459 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:31:14,399 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:31:16,498 ERROR expected string or bytes-like object
+2022-12-03 19:31:16,522 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:31:27,104 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:31:35,921 ERROR expected string or bytes-like object
+2022-12-03 19:31:35,932 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:31:55,608 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:31:56,850 ERROR expected string or bytes-like object
+2022-12-03 19:31:56,866 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:32:18,714 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:32:20,650 ERROR expected string or bytes-like object
+2022-12-03 19:32:20,665 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:33:01,553 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:33:17,520 ERROR expected string or bytes-like object
+2022-12-03 19:33:17,536 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:33:29,059 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:34:10,562 ERROR expected string or bytes-like object
+2022-12-03 19:34:10,583 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:34:44,246 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:34:45,510 ERROR expected string or bytes-like object
+2022-12-03 19:34:45,542 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:35:20,941 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:36:18,907 ERROR 'NoneType' object has no attribute 'isdigit'
+2022-12-03 19:36:18,923 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type AttributeError is not JSON serializable
+2022-12-03 19:37:03,266 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:38:14,188 ERROR expected string or bytes-like object
+2022-12-03 19:38:14,205 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:38:39,296 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:38:40,543 ERROR expected string or bytes-like object
+2022-12-03 19:38:40,559 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:40:53,234 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:41:16,889 ERROR object of type 'NoneType' has no len()
+2022-12-03 19:41:16,905 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:41:35,676 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:42:15,621 ERROR object of type 'NoneType' has no len()
+2022-12-03 19:42:15,637 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:42:42,066 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:42:53,769 ERROR object of type 'NoneType' has no len()
+2022-12-03 19:42:53,783 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:43:13,695 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:43:17,810 ERROR object of type 'NoneType' has no len()
+2022-12-03 19:43:17,843 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:43:33,793 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:43:35,360 ERROR object of type 'NoneType' has no len()
+2022-12-03 19:43:35,375 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:43:54,697 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
+2022-12-03 19:43:56,209 ERROR object of type 'NoneType' has no len()
+2022-12-03 19:43:56,225 ERROR Internal Server Error: /user/Update-User-Profile/4/
+Traceback (most recent call last):
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\@ Interview Task\9SPL\9SPL-ENV\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Program Files\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+2022-12-03 19:44:11,405 INFO D:\@ Interview Task\9SPL\Project9SPL\App9SPL\serializers.py changed, reloading.
